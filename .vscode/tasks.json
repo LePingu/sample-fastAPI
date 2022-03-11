@@ -6,7 +6,7 @@
         {
             "label": "Run server",
             "type": "shell",
-            "command": "hypercorn main:app --reload",
+            "command": "cd app && hypercorn main:app --reload",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
